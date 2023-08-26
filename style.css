@@ -1,0 +1,77 @@
+*{
+    margin: 0;  
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+header{
+    background-color: rgb(132, 122, 122);
+    border-bottom: 1px rgb(117, 104, 104) solid;
+}
+
+.header-nav h2{
+    text-transform: uppercase;
+    padding: 2%;
+}
+a{
+    color: rgb(31, 26, 26);
+    text-decoration: none;
+}
+main{
+    background-color: lightgray;
+}
+#imagem-fundo{
+    background: url(./images/uma-mulher-esta-sentada-pedindo-chuva-na-estacao-seca-aquecimento-global.jpg);
+    height: 100vh;
+    text-align: center;
+    background-size: cover;
+}
+#titulo, #subtitulo{
+    color: black;
+    padding-top: 5%;
+}
+.coluna{
+    padding: 0 5%;
+    text-align: justify;
+    width: 40%;
+}
+.coluna p{
+    padding-top: 7%;
+}
+.desastres-container{
+    background-color: rgb(192, 183, 183);
+    text-align: center;
+    padding-top: 4%;
+}
+.icone{
+    width: 30%;
+}
+.coluna-desastres h4,p{
+    padding-top: 4%;
+}
+
+#reflexao h2{
+    padding-top: 13rem;
+}
+#referencia{
+    text-align: center;
+    text-decoration: none;
+    padding: 7%
+}
+#referencia h2{
+    margin-bottom: 3%;
+}
+#referencia li{
+    list-style: none;
+    margin-bottom: 1%;
+}
+footer{
+    background-color: rgb(132, 122, 122);
+    border-top: 1px rgb(117, 104, 104) solid;
+}
+.footer-nav h3{
+    padding: 5%;
+}
+.footer-nav li{
+    list-style: none;
+    padding: 1%;
+}
